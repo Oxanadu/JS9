@@ -1,0 +1,68 @@
+body {
+  background: yellow;
+  background-position: 30% 80%;
+  background-size: 10%;
+}
+p {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  color: #a60017;
+  text-align: center;
+  padding: 50px 0;
+}
+.button {
+  width: 30%;
+  height: 200px;
+  margin: 0 auto;
+}
+.knopka1,
+.knopka2 {
+  background-color: #ff0023;
+  padding: 5px 60px;
+  width: 150px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 7px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.knopka2 {
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+form {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+form p {
+}
+input {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+input:last-child {
+  background-color: #ff2800;
+  border: 2px solid #ff2800;
+  width: 150px;
+  height: 30px;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+textarea {
+  width: 250px;
+  height: 100px;
+  border: 2px dotted#FF2800;
+  vertical-align: middle;
+}
